@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function IDESection() {
     return (
@@ -7,19 +8,19 @@ export default function IDESection() {
             <div className="skills-grid">
                 <div className="skill-card">
                     <h3>WebStorm</h3>
-                    <img src="./images/webstorm-svgrepo-com.svg" alt="WebStorm"/>
+                    <Image src="./images/webstorm-svgrepo-com.svg" alt="WebStorm" width={64} height={64} />
                 </div>
                 <div className="skill-card">
                     <h3>PhpStorm</h3>
-                    <img src="./images/phpstorm.svg" alt="PhpStorm"/>
+                    <Image src="./images/phpstorm.svg" alt="PhpStorm" width={64} height={64} />
                 </div>
                 <div className="skill-card">
                     <h3>PyCharm</h3>
-                    <img src="./images/pycharm-svgrepo-com.svg" alt="PyCharm"/>
+                    <Image src="./images/pycharm-svgrepo-com.svg" alt="PyCharm" width={64} height={64} />
                 </div>
                 <div className="skill-card">
                     <h3>VSCode</h3>
-                    <img src="./images/visual-studio-145-svgrepo-com.svg" alt="VSCode"/>
+                    <Image src="./images/visual-studio-145-svgrepo-com.svg" alt="VSCode" width={64} height={64} />
                 </div>
             </div>
         </section>

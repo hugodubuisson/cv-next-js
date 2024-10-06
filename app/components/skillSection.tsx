@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function SkillsSection() {
     return (
@@ -7,27 +8,27 @@ export default function SkillsSection() {
             <div className="skills-grid">
                 <div className="skill-card">
                     <h3>HTML</h3>
-                    <img src="./images/html.png" alt="HTML"/>
+                    <Image src="./images/html.png" alt="HTML" width={64} height={64} />
                 </div>
                 <div className="skill-card">
                     <h3>CSS</h3>
-                    <img src="./images/css-3.png" alt="CSS"/>
+                    <Image src="./images/css-3.png" alt="CSS" width={64} height={64} />
                 </div>
                 <div className="skill-card">
                     <h3>JavaScript</h3>
-                    <img src="./images/script-java.png" alt="JavaScript"/>
+                    <Image src="./images/script-java.png" alt="JavaScript" width={64} height={64} />
                 </div>
                 <div className="skill-card">
                     <h3>TypeScript</h3>
-                    <img src="./images/typescript.svg" alt="TypeScript"/>
+                    <Image src="./images/typescript.svg" alt="TypeScript" width={64} height={64} />
                 </div>
                 <div className="skill-card">
                     <h3>Symfony</h3>
-                    <img src="./images/php.png" alt="Symfony"/>
+                    <Image src="./images/php.png" alt="Symfony" width={64} height={64} />
                 </div>
                 <div className="skill-card">
                     <h3>Laravel</h3>
-                    <img src="./images/laravel-svgrepo-com.svg" alt="Laravel"/>
+                    <Image src="./images/laravel-svgrepo-com.svg" alt="Laravel" width={64} height={64} />
                 </div>
             </div>
         </section>

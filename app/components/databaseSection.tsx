@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function DatabaseSection() {
     return (
@@ -7,15 +8,15 @@ export default function DatabaseSection() {
             <div className="skills-grid">
                 <div className="skill-card">
                     <h3>SQL</h3>
-                    <img src="./images/database-svgrepo-com.svg" alt="SQL"/>
+                    <Image src="./images/database-svgrepo-com.svg" alt="SQL" width={64} height={64} />
                 </div>
                 <div className="skill-card">
                     <h3>MongoDB</h3>
-                    <img src="./images/mongodb-svgrepo-com.svg" alt="MongoDB"/>
+                    <Image src="./images/mongodb-svgrepo-com.svg" alt="MongoDB" width={64} height={64} />
                 </div>
                 <div className="skill-card">
                     <h3>HeidiSQL</h3>
-                    <img src="./images/heidi.png" alt="HeidiSQL"/>
+                    <Image src="./images/heidi.png" alt="HeidiSQL" width={64} height={64} />
                 </div>
             </div>
         </section>
