@@ -16,7 +16,7 @@ export default function DatabaseSection() {
                 </div>
                 <div className="skill-card">
                     <h3>HeidiSQL</h3>
-                    <Image src="./images/heidi.png" alt="HeidiSQL" width={64} height={64} />
+                    <Image src="./images/heidi.svg" alt="HeidiSQL" width={64} height={64} />
                 </div>
             </div>
         </section>
