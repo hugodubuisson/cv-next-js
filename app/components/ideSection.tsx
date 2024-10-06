@@ -7,19 +7,19 @@ export default function IDESection() {
             <div className="skills-grid">
                 <div className="skill-card">
                     <h3>WebStorm</h3>
-                    <img src="/webstorm-svgrepo-com.svg" alt="WebStorm"/>
+                    <img src="./images/webstorm-svgrepo-com.svg" alt="WebStorm"/>
                 </div>
                 <div className="skill-card">
                     <h3>PhpStorm</h3>
-                    <img src="/phpstorm.svg" alt="PhpStorm"/>
+                    <img src="./images/phpstorm.svg" alt="PhpStorm"/>
                 </div>
                 <div className="skill-card">
                     <h3>PyCharm</h3>
-                    <img src="/pycharm-svgrepo-com.svg" alt="PyCharm"/>
+                    <img src="./images/pycharm-svgrepo-com.svg" alt="PyCharm"/>
                 </div>
                 <div className="skill-card">
                     <h3>VSCode</h3>
-                    <img src="/visual-studio-145-svgrepo-com.svg" alt="VSCode"/>
+                    <img src="./images/visual-studio-145-svgrepo-com.svg" alt="VSCode"/>
                 </div>
             </div>
         </section>

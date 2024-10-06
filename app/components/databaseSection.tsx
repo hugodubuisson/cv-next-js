@@ -7,15 +7,15 @@ export default function DatabaseSection() {
             <div className="skills-grid">
                 <div className="skill-card">
                     <h3>SQL</h3>
-                    <img src="/database-svgrepo-com.svg" alt="SQL"/>
+                    <img src="./images/database-svgrepo-com.svg" alt="SQL"/>
                 </div>
                 <div className="skill-card">
                     <h3>MongoDB</h3>
-                    <img src="/mongodb-svgrepo-com.svg" alt="MongoDB"/>
+                    <img src="./images/mongodb-svgrepo-com.svg" alt="MongoDB"/>
                 </div>
                 <div className="skill-card">
                     <h3>HeidiSQL</h3>
-                    <img src="/heidi.png" alt="HeidiSQL"/>
+                    <img src="./images/heidi.png" alt="HeidiSQL"/>
                 </div>
             </div>
         </section>
