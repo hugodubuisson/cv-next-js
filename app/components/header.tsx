@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <Image
-        src="./images/profile2.jpg"
+        src="./images/profile3.jpg"
         alt="Profile"
         className="profile-image"
         width={150}
