@@ -9,17 +9,17 @@ const Footer: React.FC = () => {
             <ul className={styles.footerList}>
                 <li className={styles.footerListItem}>
                     <a href="https://www.linkedin.com/in/hugo-dubuisson-30a825274/" className={styles.footerLink}>
-                        <Image src="/images/linkedin.svg" alt="LinkedIn" className={styles.footerIcon} width={24} height={24} />
+                        <Image src="./images/linkedin.svg" alt="LinkedIn" className={styles.footerIcon} width={24} height={24} />
                     </a>
                 </li>
                 <li className={styles.footerListItem}>
                     <a href="mailto:hugo.dubuisson59@gmail.com" className={styles.footerLink}>
-                        <Image src="/images/email-svgrepo-com.svg" alt="Email" className={styles.footerIcon} width={24} height={24} />
+                        <Image src="./images/email-svgrepo-com.svg" alt="Email" className={styles.footerIcon} width={24} height={24} />
                     </a>
                 </li>
                 <li className={styles.footerListItem}>
                     <a href="https://github.com/hugodubuisson" className={styles.footerLink}>
-                        <Image src="/images/github-svgrepo-com.svg" alt="GitHub" className={styles.footerIcon} width={24} height={24} />
+                        <Image src="./images/github-svgrepo-com.svg" alt="GitHub" className={styles.footerIcon} width={24} height={24} />
                     </a>
                 </li>
             </ul>

@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     return (
         <header className={styles.header}>
             <Image
-                src="/images/profile3.jpg"
+                src="./images/profile3.jpg"
                 alt="Profile"
                 className={styles.profileImage}
                 width={150}
