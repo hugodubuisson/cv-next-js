@@ -16,7 +16,7 @@ export default function ProjectsSection() {
                 </div>
                 <div className="skill-card">
                     <h3>Flatcraft</h3>
-                    <Image src="./images/flatcraft.svg" alt="Nom du Projet 2" width={150} height={150} />
+                    <Image src="./images/flatcraft-min.png" alt="Nom du Projet 2" width={150} height={150} />
                     <p>Conception d'un projet FlatCraft (Comme un Minecraft mais en 2D)</p>
                     <div className="project-buttons">
                         <a href="https://github.com/hugodubuisson/flatcraft" target="_blank" rel="noopener noreferrer" className="btn">Voir plus</a>
