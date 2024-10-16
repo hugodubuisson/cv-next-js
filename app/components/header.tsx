@@ -1,25 +1,27 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
+import styles from '../styles/header.module.css';
 
-export default function Header() {
+const Header: React.FC = () => {
     return (
-        <header>
+        <header className={styles.header}>
             <Image
-                src="./images/profile3.jpg"
+                src="/images/profile3.jpg"
                 alt="Profile"
-                className="profile-image"
+                className={styles.profileImage}
                 width={150}
                 height={150}
                 loading="lazy"
             />
-            <div className="profile-info">
-                <h1>Dubuisson Hugo</h1>
-                <p>
+            <div className={styles.profileInfo}>
+                <h1 className={styles.headerTitle}>Dubuisson Hugo</h1>
+                <p className={styles.headerText}>
                     Jeune développeur en alternance chez{" "}
                     <a
                         href="https://www.portailpro.net/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className={styles.headerLink}
                     >
                         Portailpro
                     </a>{" "}
@@ -28,4 +30,6 @@ export default function Header() {
             </div>
         </header>
     );
-}
+};
+
+export default Header;

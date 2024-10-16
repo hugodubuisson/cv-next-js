@@ -1,0 +1,39 @@
+.footer {
+    background-color: #2a2a2a;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #4e4d4d;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.information {
+    margin: 0;
+    color: #e0e0e0;
+}
+
+.footerList {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footerListItem {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footerLink {
+    text-decoration: none;
+}
+
+.footerIcon {
+    width: 30px;
+    height: auto;
+    padding: 10px;
+}
+
+.texteFooter {
+    color: #e0e0e0;
+}

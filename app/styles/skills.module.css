@@ -1,0 +1,47 @@
+/* styles/skills.module.css */
+.skills {
+    background-color: #2a2a2a;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    border: 2px solid #4e4d4d;
+}
+
+.skillsTitle {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.skillsGrid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skillCard {
+    flex: 1;
+    max-width: 300px;
+    background-color: #4a4a4a;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+}
+
+.skillCardImage {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.skillCardTitle {
+    font-size: 1.5em;
+    color: #e0e0e0;
+}

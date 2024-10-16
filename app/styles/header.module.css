@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70vh;
+    gap: 20px;
+    background-color: #2a2a2a;
+    border-radius: 20px;
+    margin: 90px;
+    padding: 10px;
+    border: 2px solid #4e4d4d;
+}
+
+.profileImage {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 70px;
+}
+
+.profileInfo {
+    width: 60%;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.headerTitle {
+    font-size: 4em;
+    margin: 0;
+    color: #b0b0b0;
+}
+
+.headerText {
+    font-size: 1.5em;
+    color: #b0b0b0;
+}
+
+.headerLink {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.headerLink:hover {
+    color: #63a4ff;
+}
