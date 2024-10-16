@@ -1,10 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '../styles/header.module.css';
+import { Secular_One } from 'next/font/google';
+
+const secular_one = Secular_One({ subsets: ['latin'], display: 'swap', weight: '400' });
 
 const Header: React.FC = () => {
     return (
-        <header className={styles.header}>
+        <header className={`${styles.header} ${secular_one.className}`}>
             <Image
                 src="./images/profile3.jpg"
                 alt="Profile"

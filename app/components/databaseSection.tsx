@@ -1,10 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '../styles/database.module.css';
+import { Secular_One } from 'next/font/google';
+
+const secular_one = Secular_One({ subsets: ['latin'], display: 'swap', weight: '400' });
 
 const DatabaseSection: React.FC = () => {
     return (
-        <section className={styles.database}>
+        <section className={`${styles.database} ${secular_one.className}`}>
             <h2 className={styles.sectionTitle}>Database</h2>
             <div className={styles.skillsGrid}>
                 <div className={styles.skillCard}>
