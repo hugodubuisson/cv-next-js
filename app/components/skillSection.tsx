@@ -1,14 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
-import styles from '../styles/skills.module.css';
+import styles from '../styles/section.module.css';
 import { Secular_One } from 'next/font/google';
 
 const secular_one = Secular_One({ subsets: ['latin'], display: 'swap', weight: '400' });
 
 const SkillsSection: React.FC = () => {
     return (
-        <section className={`${styles.skills} ${secular_one.className}`}>
-            <h2 className={styles.skillsTitle}>Développement Web</h2>
+        <section className={`${styles.sections} ${secular_one.className}`}>
+            <h2 className={styles.sectionTitle}>Développement Web</h2>
             <div className={styles.skillsGrid}>
                 <div className={styles.skillCard}>
                     <h3 className={styles.skillCardTitle}>JavaScript</h3>
