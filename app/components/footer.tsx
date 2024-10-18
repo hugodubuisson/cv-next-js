@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import { FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
 import styles from '../styles/allcss.module.css';
 
 const Footer: React.FC = () => {
@@ -9,17 +9,17 @@ const Footer: React.FC = () => {
             <ul className={styles.footerList}>
                 <li className={styles.footerListItem}>
                     <a href="https://www.linkedin.com/in/hugo-dubuisson-30a825274/" className={styles.footerLink}>
-                        <Image src="./images/linkedin.svg" alt="LinkedIn" className={styles.footerIcon} width={24} height={24} />
+                        <FaLinkedin className={styles.footerIcon} size={24} color="white" />
                     </a>
                 </li>
                 <li className={styles.footerListItem}>
                     <a href="mailto:hugo.dubuisson59@gmail.com" className={styles.footerLink}>
-                        <Image src="./images/email-svgrepo-com.svg" alt="Email" className={styles.footerIcon} width={24} height={24} />
+                        <FaEnvelope className={styles.footerIcon} size={24} color="white" />
                     </a>
                 </li>
                 <li className={styles.footerListItem}>
                     <a href="https://github.com/hugodubuisson" className={styles.footerLink}>
-                        <Image src="./images/github-svgrepo-com.svg" alt="GitHub" className={styles.footerIcon} width={24} height={24} />
+                        <FaGithub className={styles.footerIcon} size={24} color="white" />
                     </a>
                 </li>
             </ul>

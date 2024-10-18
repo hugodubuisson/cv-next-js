@@ -1,5 +1,6 @@
 import React from 'react';
-import Image from 'next/image';
+import { FaJsSquare, FaPhp, FaLaravel } from 'react-icons/fa';
+import { SiTypescript } from 'react-icons/si';
 import styles from '../styles/allcss.module.css';
 
 const SkillsSection: React.FC = () => {
@@ -9,19 +10,19 @@ const SkillsSection: React.FC = () => {
             <div className={styles.skillsGrid}>
                 <div className={styles.skillCard}>
                     <h3 className={styles.skillCardTitle}>JavaScript</h3>
-                    <Image src="./images/script-java.svg" alt="JavaScript" width={64} height={64} className={styles.skillCardImage} loading="lazy" />
+                    <FaJsSquare size={64} className={styles.skillCardImage} />
                 </div>
                 <div className={styles.skillCard}>
                     <h3 className={styles.skillCardTitle}>TypeScript</h3>
-                    <Image src="./images/typescript.svg" alt="TypeScript" width={64} height={64} className={styles.skillCardImage} loading="lazy" />
+                    <SiTypescript size={64} className={styles.skillCardImage} />
                 </div>
                 <div className={styles.skillCard}>
                     <h3 className={styles.skillCardTitle}>Symfony</h3>
-                    <Image src="./images/php.svg" alt="Symfony" width={64} height={64} className={styles.skillCardImage} loading="lazy" />
+                    <FaPhp size={64} className={styles.skillCardImage} />
                 </div>
                 <div className={styles.skillCard}>
                     <h3 className={styles.skillCardTitle}>Laravel</h3>
-                    <Image src="./images/laravel-svgrepo-com.svg" alt="Laravel" width={64} height={64} className={styles.skillCardImage} loading="lazy" />
+                    <FaLaravel size={64} className={styles.skillCardImage} />
                 </div>
             </div>
         </section>

@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     return (
         <header className={`${styles.header}`}>
             <Image
-                src="./images/profileWebp.webp"
+                src="./images/profileWeb.webp"
                 alt="Profile"
                 className={styles.profileImage}
                 width={150}
