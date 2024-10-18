@@ -24,9 +24,9 @@
 
 .skillCard {
     flex: 1;
-    max-width: 300px;
+    max-width: 200px; /* Updated to match the other cards */
     background-color: #4a4a4a;
-    padding: 20px;
+    padding: 15px; /* Updated to match the other cards */
     text-align: center;
     border-radius: 5px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
@@ -34,14 +34,14 @@
 }
 
 .skillCardImage {
-    width: 100%;
+    width: 60%; /* Updated to match the other cards */
     height: auto;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 5px; /* Updated to match the other cards */
 }
 
 .skillCardTitle {
-    font-size: 1.5em;
+    font-size: 1.3em; /* Updated to match the other cards */
     color: #e0e0e0;
 }
 
@@ -56,7 +56,7 @@
     }
 
     .skillCard {
-        max-width: 300px;
+        max-width: 200px; /* Updated to match the other cards */
     }
 }
 
@@ -71,6 +71,6 @@
     }
 
     .skillCard {
-        max-width: 300px;
+        max-width: 200px; /* Updated to match the other cards */
     }
 }
