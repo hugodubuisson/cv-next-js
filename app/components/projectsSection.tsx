@@ -12,7 +12,7 @@ const ProjectsSection: React.FC = () => {
             <div className={styles.skillsGrid}>
                 <div className={styles.skillCard}>
                     <h3>Portfolio</h3>
-                    <Image src="./images/imgportfolio2.jpg" alt="Nom du Projet 1" width={150} height={150} loading="lazy" className={styles.skillCardImage} />
+                    <Image src="./images/imgportfolioWebp.webp" alt="Nom du Projet 1" width={150} height={150} loading="lazy" className={styles.skillCardImage} />
                     <p className={styles.skillCardText}>Création d'un site portfolio avec du HTML/CSS/JS</p>
                     <div className={styles.projectButtons}>
                         <a href="https://hugodubuisson.github.io/portfolio/html/accueil.html" target="_blank" rel="noopener noreferrer" className={styles.projectButton}>Voir plus</a>

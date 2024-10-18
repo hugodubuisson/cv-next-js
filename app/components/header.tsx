@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     return (
         <header className={`${styles.header} ${secular_one.className}`}>
             <Image
-                src="./images/profile3.jpg"
+                src="./images/profileWebp.webp"
                 alt="Profile"
                 className={styles.profileImage}
                 width={150}
