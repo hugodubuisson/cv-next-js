@@ -1,13 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from '../styles/projects.module.css';
-import { Secular_One } from 'next/font/google';
-
-const secular_one = Secular_One({ subsets: ['latin'], display: 'swap', weight: '400' });
 
 const ProjectsSection: React.FC = () => {
     return (
-        <section className={`${styles.projects} ${secular_one.className}`}>
+        <section className={`${styles.projects}`}>
             <h2 className={styles.sectionTitle}>Projets</h2>
             <div className={styles.skillsGrid}>
                 <div className={styles.skillCard}>
