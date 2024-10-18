@@ -1,38 +1,37 @@
 .header {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    height: 70vh;
+    justify-content: center;
+    height: auto;
     gap: 20px;
     background-color: #2a2a2a;
     border-radius: 20px;
-    margin: 90px;
     padding: 10px;
     border: 2px solid #4e4d4d;
-    margin-bottom: 150px;
+    margin: 20px;
 }
 
 .profileImage {
-    width: 30%;
+    width: 80%;
     height: auto;
     border-radius: 50%;
-    margin-left: 70px;
+    margin: 20px 0;
 }
 
 .profileInfo {
-    width: 60%;
+    width: 100%;
     text-align: center;
-    margin-right: 40px;
 }
 
 .headerTitle {
-    font-size: 4em;
+    font-size: 2em;
     margin: 0;
     color: #b0b0b0;
 }
 
 .headerText {
-    font-size: 1.5em;
+    font-size: 1em;
     color: #b0b0b0;
 }
 
@@ -43,4 +42,45 @@
 
 .headerLink:hover {
     color: #63a4ff;
+}
+
+@media (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        height: 70vh;
+        margin: 50px;
+    }
+
+    .profileImage {
+        width: 30%;
+        margin-left: 70px;
+    }
+
+    .profileInfo {
+        width: 60%;
+        margin-right: 40px;
+    }
+
+    .headerTitle {
+        font-size: 3em;
+    }
+
+    .headerText {
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        margin: 90px;
+        margin-bottom: 150px;
+    }
+
+    .headerTitle {
+        font-size: 4em;
+    }
+
+    .headerText {
+        font-size: 1.5em;
+    }
 }

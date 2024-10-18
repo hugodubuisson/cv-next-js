@@ -44,3 +44,33 @@
     font-size: 1.3em;
     color: #e0e0e0;
 }
+
+@media (min-width: 768px) {
+    .ide {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .sectionTitle {
+        font-size: 2em;
+    }
+
+    .skillCard {
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ide {
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .sectionTitle {
+        font-size: 2em;
+    }
+
+    .skillCard {
+        max-width: 200px;
+    }
+}

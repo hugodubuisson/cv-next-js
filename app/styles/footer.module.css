@@ -20,8 +20,8 @@
 }
 
 .footerListItem {
-    display: inline;
-    margin: 0 10px;
+    display: block;
+    margin: 5px 0;
 }
 
 .footerLink {
@@ -36,4 +36,21 @@
 
 .texteFooter {
     color: #e0e0e0;
+}
+
+@media (min-width: 768px) {
+    .footerListItem {
+        display: inline;
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footerIcon {
+        width: 40px;
+    }
 }

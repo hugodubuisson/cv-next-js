@@ -83,3 +83,33 @@
 .moreProjectsButtonLink:hover {
     background-color: #656565;
 }
+
+@media (min-width: 768px) {
+    .projects {
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .sectionTitle {
+        font-size: 2em;
+    }
+
+    .skillCard {
+        max-width: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .projects {
+        margin-bottom: 60px;
+        margin-top: 50px;
+    }
+
+    .sectionTitle {
+        font-size: 2em;
+    }
+
+    .skillCard {
+        max-width: 300px;
+    }
+}
